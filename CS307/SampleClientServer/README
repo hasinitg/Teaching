@@ -1,0 +1,12 @@
+Instructions to run the sample:
+-------------------------------
+1. Checkout the sample code:
+https://github.com/hasinitg/Teaching/tree/master/CS307/SampleClientServer
+2. Download and install maven in order to compile the sample: http://maven.apache.org/download.cgi
+3. Go to the folder named: "SampleClientServer" in commandline and execute: "mvn clean insall"
+(make sure that you are connected to internet)
+4. Download and install Apache Tomcat: Refer section 2 of this document: http://www.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_HowTo.html
+5. Copy the webapp named: "HelloWebApp" into <tomcat-home>/webapps
+6. Run the tomcat server
+7. Open the CS307/SampleClientServer/Client/src/main/java/org/sample/client/Client.java in your favorite java IDE and run. Observe the output.
+8. Go through the code and understand the simple example of client-server in which Server side is implemented as a RESTfu service.
